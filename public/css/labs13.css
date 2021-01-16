@@ -1,0 +1,34 @@
+.tab-list a{
+    float:left;
+    z-index: 2;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-bottom: 1px solid #000000;
+}
+.tab-content{
+    position: relative;
+}
+.box-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+    min-height: 200px;
+    /*display: none;*/
+    margin-top: -1px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+.box-content.active{
+    /*display: block;*/
+    opacity: 1;
+}
+.navbar-link.active{
+    border-color: #000000;
+    border-bottom-color: #ffffff;
+}
+#home{background-color: red;}
+#profiles{background-color: green;}
+#messages{background-color: orange;}
+#setting{background-color: deeppink;}

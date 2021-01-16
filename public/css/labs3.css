@@ -1,0 +1,85 @@
+body{
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+#box{
+    width: 1100px;
+    float: left;
+    margin-left: calc((100% - 1100px)/2);
+    box-shadow: 0 0 5px #aaaaaa;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+#top{
+    float: left;
+    width: 100%;
+    background-color: #b9c2cb;
+    box-sizing: border-box;
+    padding-left: 390px;
+}
+#left{
+    float: left;
+    width: 300px;
+    background-color: #e8e8e8;
+    margin-left: 50px;
+    padding: 30px;
+    margin-top: -180px;
+    box-sizing: border-box;
+}
+#right{
+    float: right;
+    width: 750px ;
+    padding: 20px 40px 40px;
+    box-sizing: border-box;
+}
+#top h1{
+    font-size: 60px;
+    margin: 60px 0 0;
+    text-transform: uppercase;
+}
+#top h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 10px 0 50px;
+}
+#left img{
+    border-radius: 100%;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 20px;
+    border-top: 1px solid #b9c2cb;
+    padding-top: 20px;
+}
+
+#right p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.title.no-border{
+    border-top: none;
+}
+#sp{
+    color: yellow;
+}
+.ps{
+    color: blue;
+}
+div p span{
+    color: deeppink;
+}
+p span{
+    color: orange;
+}
+span{
+    color:red;
+    text-transform: uppercase;
+}
+span{
+    /*color: green !important;*/
+}

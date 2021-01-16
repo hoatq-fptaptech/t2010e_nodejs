@@ -1,0 +1,37 @@
+body{
+    background-image: url("../imgs/Blossom-and-Bird-wallpaper-grey-web.jpg");
+    background-repeat: no-repeat;
+    /* no-repeat repeat-x repeat-y */
+    background-size: cover;
+}
+h1{
+    color: #ff0000;/* rgb(255,0,0) */
+    font-size: 50px;
+    font-family: SansSerif;
+    line-height: 1.5;
+    text-align: center;
+    /* left center right justify */
+    text-decoration: none;
+    /* underline line-through overline none*/
+    text-transform: none;
+    /* uppercase lowercase capitalize none*/
+    /*border: 1px solid red;*/
+    /* solid dotted dashed*/
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+}
+p{
+    text-align: justify;
+    color: green;
+    font-weight: 400;
+    text-indent: 20px;
+    width: 600px;
+    background-color: orange;
+}
+img{
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+}

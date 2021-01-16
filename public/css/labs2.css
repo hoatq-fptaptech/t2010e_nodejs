@@ -1,0 +1,27 @@
+h1{
+    float: left;
+}
+img{
+    width: 120px;
+}
+h3{
+    font-size: 14px;
+    text-align: right;
+    font-weight: 400;
+    width: 600px;
+}
+/*hr{*/
+/*    border-top: 1px solid #a32851;*/
+/*    width: 600px;*/
+/*}*/
+h2{
+    color: #a32851;
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: underline;
+    width: 600px;
+    border-top: 1px solid #a32851;
+}
+p{
+    width: 600px;
+}
