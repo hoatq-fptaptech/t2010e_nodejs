@@ -5,6 +5,7 @@ app.listen(port,function () { // hoan thanh xay nha
     console.log("Server is running..");
 });
 app.use(express.static("public"));// cac file css,image,.. phai dat trong public
+app.set("view engine","ejs");
 // tao routing ( thue 1 nhan vien)
 app.get("/",function (req,res) {
     res.sendFile(__dirname+"/public/Session6_layout.html");
@@ -29,4 +30,11 @@ app.get("/bongda",function (req,res) {
 // trang quan ao
 app.get("/quan-ao",function (req,res) {
     res.sendFile(__dirname+"/public/Session7_bootstrap.html");
+})
+var count = 0;
+app.get("/dem-so-nguoi",function (req,res) {
+    count++;
+    res.render("demo",{
+        count:count
+    });
 })
